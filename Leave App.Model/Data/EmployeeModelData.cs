@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Leave_App.Model
 {
+    /// <summary>
+    /// employee detail
+    /// </summary>
     public class EmployeeModelData
     {
             public int Id { get; set; }

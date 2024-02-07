@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Leave_App.Model
 {
+    /// <summary>
+    /// Leave balance detail
+    /// </summary>
     public class LeaveBalanceModelData
     {
         public int id {  get; set; }
