@@ -14,3 +14,4 @@ C:\Users\USER\source\repos\Leave App\LeeaveApp.Logic\obj\Debug\netcoreapp3.1\Lee
 C:\Users\USER\source\repos\Leave App\LeeaveApp.Logic\obj\Debug\netcoreapp3.1\LeeaveApp.Logic.dll
 C:\Users\USER\source\repos\Leave App\LeeaveApp.Logic\obj\Debug\netcoreapp3.1\LeeaveApp.Logic.pdb
 C:\Users\USER\source\repos\Leave App\LeeaveApp.Logic\obj\Debug\netcoreapp3.1\LeeaveApp.Logic.genruntimeconfig.cache
+C:\Users\USER\source\repos\Leave App\LeeaveApp.Logic\obj\Debug\netcoreapp3.1\LeeaveApp.Logic.sourcelink.json

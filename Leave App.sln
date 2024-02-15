@@ -5,11 +5,11 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leave App.Model", "Leave App.Model\Leave App.Model.csproj", "{72F80D60-A904-4C00-973A-6EC2DB5BDB33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeeaveApp.Logic", "LeeaveApp.Logic\LeeaveApp.Logic.csproj", "{7335CC7F-5FEA-4724-9E5E-1E1C7ADE6152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeeaveApp.Logic", "LeeaveApp.Logic\LeeaveApp.Logic.csproj", "{7335CC7F-5FEA-4724-9E5E-1E1C7ADE6152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveApp.API", "LeaveApp.API\LeaveApp.API.csproj", "{F6DFAA7D-0C15-408B-AEA2-7962E36E859C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeaveApp.API", "LeaveApp.API\LeaveApp.API.csproj", "{F6DFAA7D-0C15-408B-AEA2-7962E36E859C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMigration", "DataMigration\DataMigration.csproj", "{50E579F9-0674-4E02-9C0E-7BFEE0956A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataMigration", "DataMigration\DataMigration.csproj", "{50E579F9-0674-4E02-9C0E-7BFEE0956A93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

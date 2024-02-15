@@ -52,3 +52,10 @@ C:\Users\USER\source\repos\Leave App\LeaveApp.API\obj\Debug\netcoreapp3.1\LeaveA
 C:\Users\USER\source\repos\Leave App\LeaveApp.API\obj\Debug\netcoreapp3.1\LeaveApp.API.dll
 C:\Users\USER\source\repos\Leave App\LeaveApp.API\obj\Debug\netcoreapp3.1\LeaveApp.API.pdb
 C:\Users\USER\source\repos\Leave App\LeaveApp.API\obj\Debug\netcoreapp3.1\LeaveApp.API.genruntimeconfig.cache
+C:\Users\USER\source\repos\Leave App\LeaveApp.API\bin\Debug\netcoreapp3.1\Coravel.dll
+C:\Users\USER\source\repos\Leave App\LeaveApp.API\obj\Debug\netcoreapp3.1\LeaveApp.API.sourcelink.json
+C:\Users\USER\source\repos\Leave App\LeaveApp.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USER\source\repos\Leave App\LeaveApp.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USER\source\repos\Leave App\LeaveApp.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\USER\source\repos\Leave App\LeaveApp.API\obj\Debug\netcoreapp3.1\LeaveApp.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\source\repos\Leave App\LeaveApp.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll

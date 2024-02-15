@@ -7,6 +7,6 @@ namespace LeeaveApp.Logic.Interface
 {
     public interface ILeaveBalanceLogic
     {
-        LeaveBalanceModel leaveBalance(int employeeId);
+        LeaveBalanceModel leaveBalance(string employeeId);
     }
 }

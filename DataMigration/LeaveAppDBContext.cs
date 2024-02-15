@@ -10,10 +10,10 @@ namespace DataMigration
     {
         public LeaveAppDBContext(DbContextOptions<LeaveAppDBContext> options) : base(options) { }
 
-        DbSet<EmployeeModelData> EmployeeMemberHistories { get; set; }
-        DbSet<LeaveBalanceModelData> LeaveBalanceHistories { get; set; }
-        DbSet<LeaveRequestModelData> LeaveRequestHistories { get; set; }
-        DbSet<LeaveTypeModelData> LeaveTypeHistories { get; set; }
+        DbSet<Employee> EmployeeMemberHistories { get; set; }
+        DbSet<LeaveBalance> LeaveBalanceHistories { get; set; }
+        DbSet<LeaveRequest> LeaveRequestHistories { get; set; }
+        DbSet<LeaveType> LeaveTypeHistories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

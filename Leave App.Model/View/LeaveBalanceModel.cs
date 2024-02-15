@@ -7,10 +7,11 @@ namespace Leave_App.Model.Data
     public class LeaveBalanceModel
     {
         public int id { get; set; }
-        public string EmployeeId { get; set; }
+
+        public int EmployeeId { get; set; }
         public int UsedDays { get; set; }
-        public string RemainingDays { get; set; }
-        public string LeaveType { get; set; }
+        public int RemainingDays { get; set; }
+        public int LeaveType { get; set; }
 
     }
 }

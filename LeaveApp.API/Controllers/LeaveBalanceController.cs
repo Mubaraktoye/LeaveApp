@@ -1,6 +1,6 @@
-﻿using Leave_App.Model.Data;
+﻿
 using LeeaveApp.Logic.Interface;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace LeaveApp.API.Controllers
@@ -16,7 +16,7 @@ namespace LeaveApp.API.Controllers
             _leaveBalanceLogic = leaveBalanceLogic;
         }
         [HttpGet("{employeeId}")]
-        public ActionResult Get(int employeeId) 
+        public ActionResult Get(string employeeId) 
         {
             var result = _leaveBalanceLogic.leaveBalance(employeeId);
             return Ok(result);

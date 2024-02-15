@@ -14,3 +14,4 @@ C:\Users\USER\source\repos\Leave App\DataMigration\obj\Debug\netcoreapp3.1\DataM
 C:\Users\USER\source\repos\Leave App\DataMigration\obj\Debug\netcoreapp3.1\DataMigration.dll
 C:\Users\USER\source\repos\Leave App\DataMigration\obj\Debug\netcoreapp3.1\DataMigration.pdb
 C:\Users\USER\source\repos\Leave App\DataMigration\obj\Debug\netcoreapp3.1\DataMigration.genruntimeconfig.cache
+C:\Users\USER\source\repos\Leave App\DataMigration\obj\Debug\netcoreapp3.1\DataMigration.sourcelink.json

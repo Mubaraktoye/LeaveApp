@@ -7,3 +7,4 @@ C:\Users\USER\source\repos\Leave App\Leave App.Model\obj\Debug\netcoreapp3.1\Lea
 C:\Users\USER\source\repos\Leave App\Leave App.Model\obj\Debug\netcoreapp3.1\Leave App.Model.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\Leave App\Leave App.Model\obj\Debug\netcoreapp3.1\Leave App.Model.dll
 C:\Users\USER\source\repos\Leave App\Leave App.Model\obj\Debug\netcoreapp3.1\Leave App.Model.pdb
+C:\Users\USER\source\repos\Leave App\Leave App.Model\obj\Debug\netcoreapp3.1\Leave App.Model.sourcelink.json

@@ -18,13 +18,13 @@ namespace LeeaveApp.Logic.Implementation
         }
         public string AddLeaveType (LeaveTypeModel model)
         {
-            var newLeaveType = new LeaveTypeModelData
+            var newLeaveType = new LeaveType
             {
-                NameOfLeave = model.NameOfLeave,
+                Name = model.NameOfLeave,
                 Description = model.Description,
                 NoOfDays = model.NoOfDays,
             };
-            _unitOfWork.GetRepository<LeaveTypeModelData>().Insert(newLeaveType);
+            _unitOfWork.GetRepository<LeaveType>().Insert(newLeaveType);
             _unitOfWork.SaveChanges();
             return $"You have sucessfully added a new leave type";
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeeaveApp.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e29e875cf392eb9c8e3651054aeec09c75911fcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeeaveApp.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeeaveApp.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

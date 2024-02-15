@@ -20,7 +20,7 @@ namespace LeeaveApp.Logic.Implementation
         public string RegisterEmployee(EmployeeModel model)
         {
             //var generateEmployeeId = 000;
-            var dataModel = new EmployeeModelData
+            var dataModel = new Employee
             {
                 
                 FirstName = model.FirstName,
@@ -29,9 +29,15 @@ namespace LeeaveApp.Logic.Implementation
                 PhoneNumber = model.PhoneNumber,
                 EmployeeId = model.EmployeeId
             };
-            _unitOfWork.GetRepository<EmployeeModelData>().Insert(dataModel);
+            _unitOfWork.GetRepository<Employee>().Insert(dataModel);
             _unitOfWork.SaveChanges();
             return $"Congratulationds {model.FirstName} {model.LastName}, you have been registeed";
+        }
+
+        public string GetDummyString()
+        {
+            Console.WriteLine("Hello! my worker");
+            return "Hello! my worker";
         }
     }
 }

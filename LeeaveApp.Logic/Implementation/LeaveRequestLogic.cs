@@ -20,23 +20,23 @@ namespace LeeaveApp.Logic.Implementation
         }
         public string RequestLeave(LeaveRequestModel model)
         {
-            var TypeOfLeave = _unitOfWork.GetRepository<LeaveTypeModelData>().GetAll().Where(x => x.id == model.LeaveTypeId).FirstOrDefault();
-            var getEmployee= _unitOfWork.GetRepository<EmployeeModelData>().GetAll().Where(x => x.EmployeeId == model.EmployeeId).FirstOrDefault();
+            var TypeOfLeave = _unitOfWork.GetRepository<LeaveType>().GetAll().Where(x => x.Id == model.LeaveTypeId).FirstOrDefault();
+            var getEmployee= _unitOfWork.GetRepository<Employee>().GetAll().Where(x => x.EmployeeId == model.EmployeeId).FirstOrDefault();
             
-            var dataModel = new LeaveRequestModelData
+            var dataModel = new LeaveRequest
             {
                 
                 EmployeeId = model.EmployeeId,
                 LeaveTypeId = model.LeaveTypeId,
                 NoOfDays = TypeOfLeave.NoOfDays,
                 DateFrom = model.DateFrom,
-                DateTo = model.DateTo,
-                ResumptionDate = model.ResumptionDate,
-                Status = model.Status,
-                DateOfRequest = model.DateOfRequest,
-                DateOfLastAction = model.DateOfLastAction
+                DateTo = model.DateFrom.AddDays(TypeOfLeave.NoOfDays),
+                ResumptionDate = model.DateFrom.AddDays(TypeOfLeave.NoOfDays+1),
+                Status = "pending",
+                CreatedDate = DateTime.Now,
+                UpdatedDate = DateTime.Now,
             };
-            _unitOfWork.GetRepository<LeaveRequestModelData>().Insert(dataModel);
+            _unitOfWork.GetRepository<LeaveRequest>().Insert(dataModel);
             _unitOfWork.SaveChanges();
             return $"Congratulations, {getEmployee.FirstName} {getEmployee.LastName} Your Request has been submitted";
         }
