@@ -1,0 +1,9 @@
+# VS folder ignore
+.vs/
+
+*.suo
+*.user
+
+bin
+obj
+packages
