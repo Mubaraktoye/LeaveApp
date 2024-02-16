@@ -10,7 +10,7 @@ namespace LeeaveApp.Logic.Interface
     {
         string RegisterEmployee(EmployeeModel model);
 
-        string GetDummyString();
+      
 
     }
 }

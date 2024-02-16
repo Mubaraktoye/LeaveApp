@@ -50,9 +50,9 @@ namespace LeeaveApp.Logic.Implementation
             _unitOfWork.SaveChanges();
             return "Success";
         }
-        public string DeleteEmpolyee()
+        public string DeleteEmpolyee(string employeeId)
         {
-            var UserRecord = _unitOfWork.GetRepository<Employee>().GetAll().Where(x => x.EmployeeId == model.EmployeeId).FirstOrDefault();
+            var UserRecord = _unitOfWork.GetRepository<Employee>().GetAll().Where(x => x.EmployeeId == employeeId).FirstOrDefault();
             _unitOfWork.GetRepository<Employee>().Delete(UserRecord);
             _unitOfWork.SaveChanges();
             return "Deleted";
